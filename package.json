@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ching",
+  "author": "ching",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -15,5 +15,10 @@
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "webpack": "^1.15.0"
+  },
+  "babel": {
+    "preset": [
+      "react"
+    ]
   }
 }
