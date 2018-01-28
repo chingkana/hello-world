@@ -1,7 +1,8 @@
-const React = require("react");
-const ReactDOM = require("react-dom");
+const React = require("react")
+const ReactDOM = require("react-dom")
+const HelloWorld = require("./hello-world.jsx")
 
 ReactDOM.render(
-    <h1>Hello World !!!</h1>,
+    <HelloWorld />,
     document.getElementById("content")
 )
